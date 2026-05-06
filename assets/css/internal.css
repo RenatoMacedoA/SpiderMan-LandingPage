@@ -1,0 +1,180 @@
+@import url("reset.css");
+@import url("global.css");
+@import url("components/_navigator.css");
+@import url("components/_pills.css");
+@import url("components/_link-button.css");
+@import url("components/_gallery.css");
+
+
+
+.s-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-flow: row nowrap;
+  position: relative;
+  
+}
+
+.s-wrapper video{
+  position: fixed;
+  width: 100%;
+
+}
+
+
+.s-wrapper .s-left-column {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding-right: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.s-wrapper .s-main-content  {
+  height: 100%;
+  width: 100%;
+  padding-left: 130px;
+  position: relative;
+
+}
+
+.s-wrapper .s-main-content__top {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.s-wrapper .s-main-content__bottom {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+.s-wrapper .s-main-content .s-logo img {
+  margin-top: 50px;
+  margin-left: 0;
+  margin-bottom: 30px;
+  width: 46.875rem;
+  height: auto;
+}
+
+.s-wrapper .s-main-content__top .s-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description .s-description__text p {
+    color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 1000px;
+  letter-spacing: 0.2px;
+}
+
+.s-wrapper .s-main-content__top .s-description .pills {
+  margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-links {
+  padding: 20px;
+  padding-left: 0;
+  
+}
+
+.s-wrapper .s-main-content .s-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.s-wrapper .s-main-content .a-link-buttom {
+ 
+   border: 2px solid white;
+}
+
+.s-spiderman-01-01 {
+  background-image: url("../images/spiderman-tobey/movie-01/background.jpg");
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* A imagem não se move com o scroll / Image won't move */
+  min-height: 100vh; /* Garante que cubra pelo menos a tela toda / Covers at least full screen */
+}
+
+.s-spiderman-01-02 {
+  background-image: url("../images/spiderman-tobey/movie-02/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; 
+}
+
+.s-spiderman-01-03 {
+  background-image: url("../images/spiderman-tobey/movie-03/background.jpg");
+  background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; 
+}
+
+
+
+
+.s-spiderman-02-01 {
+  background-image: url("../images/spiderman-andrew/movie-01/background.jpg");
+  background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; 
+}
+
+.s-spiderman-02-02 {
+  background-image: url("../images/spiderman-andrew/movie-02/background.jpg");
+  background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; 
+}
+
+
+
+
+.s-spiderman-03-01 {
+  background-image: url("../images/spiderman-tom/movie-01/background.jpg");
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* A imagem não se move com o scroll / Image won't move */
+  min-height: 100vh; /* Garante que cubra pelo menos a tela toda / Covers at least full screen */
+}
+
+.s-spiderman-03-02 {
+  background-image: url("../images/spiderman-tom/movie-02/background.jpg");
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* A imagem não se move com o scroll / Image won't move */
+  min-height: 100vh; /* Garante que cubra pelo menos a tela toda / Covers at least full screen */
+}
+
+.s-spiderman-03-03 {
+  background-image: url("../images/spiderman-tom/movie-03/background.jpg");
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* A imagem não se move com o scroll / Image won't move */
+  min-height: 100vh; /* Garante que cubra pelo menos a tela toda / Covers at least full screen */
+}
